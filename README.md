@@ -224,3 +224,6 @@ This readme is available in the following translations:
 - [Korean :kr:](translations/README.korean.md) (:pray: [@라스크](https://github.com/laskdjlaskdj12))
 
 Translations for other files can be found [here](translations).
+
+no-op change to test concourse builds. 
+btw, what's pretty interesting about this graphql based admin generator tool is that the server component is built using haskell (too bad i don't know haskell, yet)
