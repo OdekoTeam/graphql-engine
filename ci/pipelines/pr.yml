@@ -12,7 +12,7 @@ resource_types:
 resources:
 - name: pull-request
   type: pull-request
-  check_every: 15m
+  check_every: 1h
   webhook_token: ((github-webhook-token))
   source:
     repository: OdekoTeam/graphql-engine
@@ -23,6 +23,7 @@ resources:
     repository: docker.odeko.com/odeko/graphql-engine
 - name: concourse
   type: git
+  check_every: 1h
   source:
     branch: master
     password: ((git-password))
